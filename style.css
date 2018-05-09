@@ -1,0 +1,70 @@
+/*header navigation bar styling*/
+#navtop{
+	text-align: justify;
+	min-width: 500px;
+}
+#navtop:after{
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+#navtop li{
+	display: inline-block;
+}
+#apps{
+	opacity: .6;
+}
+/*google search bar image styling*/
+#searchbox{
+	position: absolute;
+	margin: auto;
+	top: -10px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 508px
+	height: 206px;
+	;
+}
+/*footer navigation bar styling*/
+#navbottom {
+	background-color: #f9f9f9;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#navbottom a {
+    float: left;
+    display: block;
+    color: #black;
+    text-align: center;
+    padding: 2px 18px;
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 13px;
+}
+/*link styling*/
+body {
+	font-family:Helvetica;
+}
+a {
+	font-size:13px;
+
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+	color: gray;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
